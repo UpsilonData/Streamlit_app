@@ -11,7 +11,7 @@ tab1, tab2, tab3, tab4  = st.tabs(["Présentation de l'écosystème", "La SciPy 
 
 # You can also use "with" notation:
 with tab1:
-    st.radio("Select one:", [1, 2])
+    tab1_1, tab1_2, tab1_3  = tab1.tabs(["Guide", "Quiz sur venv", "Voir les réponses"])
 
 
 tab2.write("this is tab 2")
