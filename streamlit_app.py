@@ -14,7 +14,7 @@ with tab1:
     tab1_1, tab1_2, tab1_3  = tab1.tabs(["Guide", "Quiz sur venv", "Voir les réponses"])
     tab1_1.html("<h4>Guide de gestion des Environnements Python avec vend</h4>")
     tab1_1.write("Ce guide vous permettra ...")
-    tab1_1.html("Ce guide vous permettra <div style='color:red;'> test </div>...")
+    tab1_1.html("Ce guide vous permettra <span style='color:red;'> test </span>...")
 
 
 tab2.write("this is tab 2")
