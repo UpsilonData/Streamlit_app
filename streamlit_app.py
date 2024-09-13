@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 # Titre de l'application
-st.title("Dashboard des Accidents de Voiture V2")
+st.title("Dashboard des Accidents de Voiture V2 formation")
 
 
 # Simuler des données
