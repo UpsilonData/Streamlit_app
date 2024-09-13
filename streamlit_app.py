@@ -6,6 +6,15 @@ import numpy as np
 st.title("Dashboard des Accidents de Voiture V2 formation")
 
 
+# Insert containers separated into tabs:
+tab1, tab2, tab3, tab4  = st.tabs(["Présentation de l'écosystème", "La SciPy Stack", "Librairies de visualisation", "Fichiers volumineux"])
+tab1.write("this is tab 1")
+tab2.write("this is tab 2")
+tab3.write("this is tab 3")
+tab4.write("this is tab 4")
+
+
+'''
 # Simuler des données
 np.random.seed(0)
 dates = pd.date_range('2015-01-01', periods=2000, freq='D')
@@ -34,3 +43,4 @@ with st.sidebar:
     st.radio("Select one:", [1, 2])
     # Sélectionner l'année
     st.selectbox('Sélectionner l\'année:', x)
+'''
