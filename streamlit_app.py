@@ -12,7 +12,7 @@ tab1, tab2, tab3, tab4  = st.tabs(["Présentation de l'écosystème", "La SciPy 
 # You can also use "with" notation:
 with tab1:
     tab1_1, tab1_2, tab1_3  = tab1.tabs(["Guide", "Quiz sur venv", "Voir les réponses"])
-    tab1_1.html("<h2>Guide de gestion des Environnements Python avec vend</h2>")
+    tab1_1.html("<h4>Guide de gestion des Environnements Python avec vend</h4>")
     tab1_1.write("Ce guide vous permettra...")
 
 
