@@ -15,6 +15,8 @@ with tab1:
     tab1_1.html("<h4>Guide de gestion des Environnements Python avec vend</h4>")
     tab1_1.html("Ce guide vous permettra <span style='color:red;'> test </span>...")
 
+    tab1_2.html("Quelle commande est utilisée pour créer un environnement virtuel avec ")
+
 
 tab2.write("this is tab 2")
 tab3.write("this is tab 3")
